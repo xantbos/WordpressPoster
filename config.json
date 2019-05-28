@@ -1,0 +1,19 @@
+{
+    "wordpressAPI":{
+        "username": "",
+        "password": "",
+        "clientId": 0,
+        "clientSecret": "",
+        "redirectUri": ""
+    },
+	"wordpressConfig":{
+		"bloghome": ""
+	},
+	"seriesData":{
+		"seriesname": "",
+		"seriesslug": "",
+		"seriesraw" : "https://ncode.syosetu.com/n4983ds/",
+		"chapterstart" : "",
+		"srclang": ""
+	}
+}

@@ -131,3 +131,15 @@ If you send several chapters in rapid succession you will find yourself restrict
 Wordpress may restrict your app's access if you abuse the endpoints, and this Basic Auth setup is _only_ meant for server-side 'development' applications.
 
 This script isn't very flexible in handling other configurations and is designed around a more or less specific setup.
+
+---
+
+# Extra Functionality
+
+If you're someone who wants to do the translating beforehand and just let the bot go to town, there's a function called parse_existing_file() in Ripper. This allows you to use a folder that shares the series' slug name to use provided txt files instead of ripping from the internet and relying on MTL.
+
+So in the same folder as main.py you'd have a folder that uses the slug in your config. Within that folder, use numbered chapters from X-Y, X being the first chapter you want to post (whether it be 1 or 600), and just keep incrementing as you go. So like `1.txt`
+
+The script will take the _very first line_ as the chapter title **as is** while the rest of the text file will be taken as is, spacing and all.
+
+I recommend this if you just want to set up a simple automation loop for uploading content and have translations sitting around.

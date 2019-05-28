@@ -2,6 +2,8 @@
 
 A small-ish script designed to automate posting content to wordpress.
 
+Written in Python 3.5
+
 # Dependencies
 
 * Googletrans - https://github.com/ssut/py-googletrans

@@ -12,7 +12,6 @@ with open('config.json', encoding="utf8") as file:
 class Ripper:
 
 	def __init__(self):
-		self.dump_data("nothing")
 		self.toc = []
 		self.seriesraw = setup_file["seriesData"]["seriesraw"]
 		self.populate_toc()
